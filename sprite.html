@@ -6,28 +6,12 @@
     <title>Document</title>
     <style>
       .sprite {
-        width: 63.6px;
-        position: absolute;
-        top: 0;
-        left: 0;
-        /* overflow-x: hidden; */
-        width: 318px;
-        /* width: 632px; */
-        display: block;
-        height: 57px;
-        /* height: 114px; */
-        background: url("./sprite9.jpeg");
+        width: 84.3px;
+        height: 99px;
+        background-image: url("./sprite9.jpeg");
         background-size: cover;
-        animation: animateSprite 2s steps(6) infinite;
-        /* will-change: background-position; */
-        /* &::after{
-            position: absolute;
-            content: "";
-            inset: 0;
-            background-position: 53px 0;
-            left: 53px;
-            background-color: red;
-        } */
+        animation: animateSprite 0.3s steps(6) infinite;
+        background-color: red;
       }
 
       @keyframes animateSprite {
@@ -35,13 +19,12 @@
           background-position: 0 0;
         }
         to {
-          background-position: -318px 0;
+          background-position: -509px 0;
         }
       }
     </style>
   </head>
   <body>
-    <div class="sprite">
-    </div>
+    <div class="sprite"></div>
   </body>
 </html>
